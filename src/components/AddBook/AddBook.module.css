@@ -1,0 +1,9 @@
+.form {
+  display: flex;
+  column-gap: 1.5rem;
+}
+
+form input {
+  box-sizing: border-box;
+  padding: 1.2rem;
+}
