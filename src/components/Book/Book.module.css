@@ -1,0 +1,24 @@
+.book-wrapper {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.book-wrapper h1 {
+  font-size: 2rem;
+}
+
+.book-wrapper h2 {
+  font-size: 1.5rem;
+}
+
+button {
+  line-height: 0.5rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+  height: 2rem;
+}

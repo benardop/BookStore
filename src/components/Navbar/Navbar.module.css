@@ -1,0 +1,14 @@
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  column-gap: 2rem;
+}
