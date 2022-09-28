@@ -1,3 +1,7 @@
+* {
+  background-color: bisque;
+}
+
 .book-wrapper {
   display: flex;
   box-sizing: border-box;
