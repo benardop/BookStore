@@ -22,6 +22,12 @@ const initialState = [
     title: 'The Intelligent Investor',
     author: 'Warren Buffet',
   },
+  {
+    id: uuidv4(),
+    completed: false,
+    title: 'Becoming A Leader',
+    author: 'Dr. Miles Munroe',
+  },
 ];
 
 export default function bookReducer(state = initialState, action) {
