@@ -11,9 +11,10 @@ function AddBook() {
   const handleClick = (e) => {
     e.preventDefault();
     const book = {
-      id: uuidv4(),
+      item_id: uuidv4(),
       title,
       author,
+      category: 'action',
     };
     dispatch(addBook(book));
     setTitle('');
@@ -21,24 +22,26 @@ function AddBook() {
   };
 
   return (
-    <div>
-      <h3>Add new book</h3>
+    <div className={style['input-book']}>
+      <h3 className={style['add-new-book']}>Add new book</h3>
       <form className={style.form} action="/action.php">
         <input
+          className={style.title}
           type="text"
           id="title"
           value={title}
-          placeholder="title"
+          placeholder="Book title"
           onChange={(e) => { setTitle(e.target.value); }}
         />
         <input
+          className={style.author}
           type="text"
           id="author"
           value={author}
           placeholder="author"
           onChange={(e) => { setAuthor(e.target.value); }}
         />
-        <button onClick={handleClick} type="submit">
+        <button className={style.button} onClick={handleClick} type="submit">
           Add book
         </button>
       </form>
