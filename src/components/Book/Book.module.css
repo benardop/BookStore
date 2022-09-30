@@ -1,28 +1,210 @@
-* {
-  background-color: bisque;
+.inner-dev {
+  display: flex;
 }
 
 .book-wrapper {
+  padding: 2rem 1rem;
   display: flex;
-  box-sizing: border-box;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
-  border: 1px solid black;
-}
-
-.book-wrapper h1 {
-  font-size: 2rem;
-}
-
-.book-wrapper h2 {
-  font-size: 1.5rem;
-}
-
-button {
-  line-height: 0.5rem;
-  padding: 1rem;
   box-sizing: border-box;
+  background-color: white;
+}
+
+.bar {
+  display: inline;
+  width: 0;
+  border: solid 1px #e8e8e8;
+}
+
+.catagory {
+  padding-left: 0.3rem;
+  width: 3.063rem;
+  height: 1.125rem;
+  margin: 0 2.438rem 0 0;
+  opacity: 0.5;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.author {
+  padding-left: 0.3rem;
+  width: 6.688rem;
+  height: 1.188rem;
+  margin: 0.25rem 0 0;
+  font-family: RobotoSlab, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.title {
+  padding-left: 0.3rem;
+  width: 12.313rem;
+  height: 1.813rem;
+  margin: 0.188rem 20.188rem 0 0;
+  font-family: RobotoSlab, sans-serif;
+  font-size: 1.375rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
+
+.inner-dev button {
+  width: 4.563rem;
+  height: 1.188rem;
+  margin: 0.188rem 0.938rem 0.125rem 0;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  border: none;
+  background-color: white;
+}
+
+.circle {
+  border-width: 5px;
+  font-size: 58px;
+  color: #0290ff;
+}
+
+.per {
+  display: flex;
+}
+
+.per div svg {
+  overflow: visible;
+  width: 4rem;
+}
+
+.persent {
+  width: 4.25rem;
+  height: 2.438rem;
+  margin: 0.063rem 5.75rem 0 0.688rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.completed {
+  width: 5rem;
+  height: 1.125rem;
+  margin: 0.438rem 4.938rem 0.75rem 0.75rem;
+  opacity: 0.5;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.long-bar {
+  --fa-style-family-brands: "Font Awesome 6 Brands";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+  --fa-style-family-classic: "Font Awesome 6 Free";
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  width: 0.125rem;
+  height: 4.375rem;
+  margin: 1.125rem 3.688rem 0 4.938rem;
+  border: solid 1px #e8e8e8;
+}
+
+.last-dev {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-chapter {
+  --fa-style-family-brands: "Font Awesome 6 Brands";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+  --fa-style-family-classic: "Font Awesome 6 Free";
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  width: 7.875rem;
+  height: 1.125rem;
+  margin: 0.063rem 3.625rem 0 3.688rem;
+  opacity: 0.5;
+  font-size: 0.8rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+  text-transform: uppercase;
+}
+
+.chapter-10 {
+  --fa-style-family-brands: "Font Awesome 6 Brands";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+  --fa-style-family-classic: "Font Awesome 6 Free";
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  width: 4.688rem;
+  height: 1.313rem;
+  margin: 0.438rem 6.813rem 0.25rem 3.688rem;
   font-size: 1rem;
-  height: 2rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #121212;
+}
+
+.update-progress {
+  --fa-style-family-brands: "Font Awesome 6 Brands";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+  --fa-style-family-classic: "Font Awesome 6 Free";
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  width: 11.5rem;
+  height: 2.063rem;
+  margin: 0.75rem 0 0.563rem 3.688rem;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  background-color: #a04000;
+  border: none;
+  color: white;
+  text-transform: uppercase;
 }

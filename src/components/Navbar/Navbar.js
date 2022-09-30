@@ -3,10 +3,10 @@ import style from './Navbar.module.css';
 
 const Navbar = () => (
   <div className={style['navbar-wrapper']} data-testid="navbar-page">
-    <h1>Book store</h1>
     <ul className={style['navbar-list']}>
-      <li><Link to="/">Books</Link></li>
-      <li><Link to="/categories">Categories</Link></li>
+      <li className={style['big-font']}>Bookstore CMS</li>
+      <li className={style.books}><Link to="/">Books</Link></li>
+      <li className={style.categories}><Link to="/categories">Categories</Link></li>
     </ul>
   </div>
 );
