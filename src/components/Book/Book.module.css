@@ -51,7 +51,6 @@
 .title {
   padding-left: 0.3rem;
   width: 12.313rem;
-  height: 1.813rem;
   margin: 0.188rem 20.188rem 0 0;
   font-family: RobotoSlab, sans-serif;
   font-size: 1.375rem;
@@ -203,7 +202,7 @@
   margin: 0.75rem 0 0.563rem 3.688rem;
   padding: 0.438rem 1.188rem 0.5rem 1.375rem;
   border-radius: 3px;
-  background-color: #a04000;
+  background-color: #0290ff;
   border: none;
   color: white;
   text-transform: uppercase;
