@@ -11,7 +11,7 @@ Microverse Module 03 Project: This educational project is to create a React Book
 - Linters
 
 ## Live Demo
-[Live Demo Link](Coming Soon)
+[Live Demo Link](https://benardop.github.io/BookStore/)
 
 
 Please get your browser update.
