@@ -1,5 +1,5 @@
 # BookStore
-Microverse Module 03 Project: This educational project is to create a React BookStore Application that allows the user to add new book and delete a book from the store.
+This educational project is similar to the "Awesome Books" website. It is a MVP version of it that allows you to display a list of books, add a book and remove a selected book. Built with React, CSS3 and JavaScript.
  
 ## Built With the following
 
